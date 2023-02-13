@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "react-bootstrap/Card";
 import { SettingOutlined } from "@ant-design/icons";
 
-// 1f1469c9e470edf779ea1cbf392d8bad
+const keyAPI = "1f1469c9e470edf779ea1cbf392d8bad";
 // https://openweathermap.org/current
 // https://openweathermap.org/current#data
 
@@ -32,7 +32,7 @@ function App() {
   const [humidity, setHumidity] = useState("");
   const [visibility, setVisibility] = useState("");
   const [weatherDescription, setWeatherDescription] = useState("");
-  const [viewSetting, setViewSetting] = useState(true); //false
+  const [viewSetting, setViewSetting] = useState(false); 
   const [cityData, setCityData] = useState(dataCity || []);
   const [targetCity, setTargetCity] = useState("");
   const [inputValue, setInputValue] = useState("");

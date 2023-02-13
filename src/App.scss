@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.informationWrapper {
+  margin-top: 1%;
+}
+
+.firstWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secondWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.thirdWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .wind, .pressure {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.other {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+
+  p {
+    height: 2%;
+    margin-top: 1em;
+  }
+}
+
+.settingsWrapper {
+  width: 100%;
+  margin-top: 1%;
+}
+
+.settingHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    margin: 0;
+  }
+}
+
+.city {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(230, 230, 230);
+  align-items: center;
+  margin-top: 2%;
+  border-radius: 2px;
+
+  .left{
+    display: flex;
+    align-items: center;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.addCity {
+  margin: 2em 0 2em 0;
+  p {
+    margin: 0.5em;
+  }
+}
+
+.searchWrapper{
+  display: flex;
+  align-items: center;
+}
